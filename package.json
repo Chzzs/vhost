@@ -1,0 +1,22 @@
+{
+  "name": "virtual-host",
+  "version": "1.0.0",
+  "description": "vhost server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vhost",
+    "virtual",
+    "host"
+  ],
+  "author": "Chazz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "bouncy": "^3.2.2",
+    "express": "^4.12.3",
+    "method-override": "^2.3.2"
+  }
+}
