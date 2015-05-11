@@ -2,7 +2,6 @@
 var express = require('express');
 var bouncy = require('bouncy');
 var server = bouncy(function (request, response, bounce) {
-	console.log(request.headers.host);
   if(request.headers.host == 'www.hameauderageade.com'){
 		bounce(3000);
   } else if (request.headers.host == 'www.123catelier.fr') {
